@@ -207,7 +207,7 @@ class Homework
 {
     static void Compare()
     {
-        Console.WriteLine("Input two words to compare if they are equals or not");
+        Console.WriteLine("Введите два числа");
         var str1 = Console.ReadLine();
         var str2 = Console.ReadLine();
 
@@ -225,14 +225,14 @@ class Homework
 
     static void Analyze()
     {
-        Console.WriteLine("Input word or sentence to find numbers of characters, digits, etc");
+        Console.WriteLine("Введите слово или предложение");
         var str3 = Convert.ToString(Console.ReadLine());
         Console.WriteLine(str3.Length);
     }
 
     static void Dublicate()
     {
-        Console.WriteLine("Input two words or sentences to compare them and find characters duplicates");
+        Console.WriteLine("Введите два слова или предложения");
         var FirstWord = Convert.ToString(Console.ReadLine());
         var SecondWord = Convert.ToString(Console.ReadLine());
 
@@ -250,7 +250,7 @@ class Homework
 
     static void Sort()
     {
-        Console.WriteLine("\nInput a word. It will return all characters sorted in alphabetical order");
+        Console.WriteLine("Введите слово. Он вернет все символы, отсортированные в алфавитном порядке");
         String str4 = Console.ReadLine();
 
         str4 = String.Concat(str4.OrderBy(ch => ch));
